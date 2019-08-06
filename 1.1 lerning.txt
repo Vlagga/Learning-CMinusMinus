@@ -1,0 +1,17 @@
+1.1 Lerning
+
+Quiz
+
+2. I press F5.
+
+3. The linker turns the object compiled form the source code into a executable.
+
+4. Code, debug, compile, debug, linker, debug. If debug = bad then return to source.
+
+Exercise 
+
+1. it takes x+y and adds them then adds a space and then it multiplies x*y and tires to output.
+
+2.It returns as a bug existing, line 8 end should be endl.
+
+3. 
