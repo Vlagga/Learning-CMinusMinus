@@ -1,0 +1,59 @@
+Quiz
+
+1. What is the difference between an integer variable and a floating-point variable?
+
+Integer variables can only hold a flat number while a floating-point variables are able to use decimals
+
+2. What are the differences between an unsigned short int and a long int?
+
+The unsigned short int take up less space (2 bytes) but can only hold a number up to 65,535. A long int can hold any number between -2,147,483,648 and 2,147,483,648 although it take up 4 bytes instead meaning it not the ideal solution for smaller numbers.
+
+3. What are the advantages of using a symbolic constant rather than a literal constant?
+
+When a change is needed it's easier to do since you have a definition to change.
+
+4. What are the advantages of using the const keyword rather than #define?
+
+The code is easier to maintain and prevent bugs.
+
+5. What makes for a good or bad variable name?
+
+A good name is something like hoaHouses and a bad one is k182yujn.
+
+6. Given this enum, what is the value of BLUE?
+enum COLOR { WHITE, BLACK = 100, RED, BLUE, GREEN = 300 };
+
+The number of blue is 102.
+
+7. Which of the following variable names are good, which are bad, and which are
+invalid?
+a. Age
+b. !ex
+c. R79J
+d. TotalIncome
+e. __Invalid
+
+The good ones are a and d, the invalid one is b.
+
+Exercises
+
+1. What would be the correct variable type in which to store the following
+information?
+a. Your age  
+b. The area of your backyard
+c. The number of stars in the galaxy
+d. The average rainfall for the month of January
+
+a, unsigned short int. b, unsigned short int. c, double. d, unsigned short int
+
+2. Create good variable names for this information.
+
+A, myAge. B, area. C, milkywayStars. D, avgRainJan
+
+3. Declare a constant for pi as 3.14159.
+
+const float pi = 3.14159; 
+
+4. Declare a float variable and initialize it using your pi constant.
+
+float myPi = pi;
